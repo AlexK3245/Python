@@ -1,4 +1,7 @@
+""" This program will ask the user how many steps they took each day, then it will calculate the total
+    amount of steps and the average amount and print it"""
 
+# Assignment
 
 days = ["Sunday", "Monday", "Tuesday",
         "Wednesday", "Thursday", "Friday", "Saturday"]
