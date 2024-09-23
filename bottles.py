@@ -3,18 +3,17 @@
 count = 99
 while count >= 1:
     if count == 2:
-        print(str(count), "bottles of beer on the wall") 
-        print(str(count), "bottles of beer\nTake one down, pass it around")
+        print(f"{count} bottles of beer on the wall")
+        print(f"{count} bottles of beer\nTake one down, pass it around")
         count = count - 1
-        print(str(count), "bottle of beer on the wall!\n")
+        print(f"{count} bottle of beer on the wall!\n")
     elif count == 1:
-        print(str(count), "bottle of beer on the wall") 
-        print(str(count), "bottle of beer\nTake one down, pass it around")
+        print(f"{count} bottle of beer on the wall")
+        print(f"{count} bottle of beer\nTake one down, pass it around")
         count = count - 1
-        print(str(count), "bottles of beer on the wall!\n")
+        print(f"{count} bottles of beer on the wall!\n")
     else:
-        print(str(count), "bottles of beer on the wall") 
-        print(str(count), "bottles of beer\nTake one down, pass it around")
+        print(f"{count} bottles of beer on the wall")
+        print(f"{count} bottles of beer\nTake one down, pass it around")
         count = count - 1
-        print(str(count), "bottles of beer on the wall!\n")
-        
+        print(f"{count} bottles of beer on the wall!\n")
