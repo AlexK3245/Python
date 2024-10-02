@@ -10,6 +10,7 @@ for i in range(1, 6):
 swapped = True
 
 # put all names in acsending order
+names.sort()
 
 # Continue looping until no swaps occur
 while swapped:
