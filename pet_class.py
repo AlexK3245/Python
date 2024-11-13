@@ -11,7 +11,7 @@ class Pet:
         self.__pet_name = pet_name
         self.__pet_type = pet_type
 
-    # Getter and Setter for first_name
+    # Getter and Setter for owner_first_name
     def get_owner_first_name(self):
         return self.__owner_first_name
 
@@ -42,11 +42,11 @@ class Pet:
     def set_pet_type(self, value):
         self.__pet_type = value
 
-    # Method to print student details
+    # Method to print pet details
     def print_pet_details(self):
         print("Pet Details:", vars(self))
 
-    # Method to print basic info about the student
+    # Method to print basic info about the pet
     def print_info(self):
         print(self.__owner_first_name + " " + self.__owner_last_name)
         print(self.__pet_id)
