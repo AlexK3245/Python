@@ -5,6 +5,19 @@ class NotNumericError(Exception):
         self.message = message
         super().__init__(self.message)
 
+    # Getter and Setter for pet_kind
+    def get_number(self):
+        return self.__number
+
+    def get_message(self):
+        return self.__message
+
+    def set_number(self, value):
+        self.__number = value
+
+    def set_message(self, value):
+        self.__message = value
+
     def __str__(self):
         return f"{self.number} --> {self.message}"
 
